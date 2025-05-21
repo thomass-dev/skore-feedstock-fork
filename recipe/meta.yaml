@@ -36,9 +36,8 @@ requirements:
     - sqlite <3.49
     - pip
     - pip:
-      - skore-local-project
-      - skore-hub-project
-
+        - skore-local-project
+        - skore-hub-project
 
 test:
   imports:
