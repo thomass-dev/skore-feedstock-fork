@@ -31,11 +31,14 @@ requirements:
     - plotly
     - rich
     - scikit-learn
-    - skore-local-project
-    - skore-hub-project
     # Need to pin sqlite for compatibility reason with diskcache
     # cf. https://github.com/probabl-ai/skore/issues/1353
     - sqlite <3.49
+    - pip
+    - pip:
+      - skore-local-project
+      - skore-hub-project
+
 
 test:
   imports:
